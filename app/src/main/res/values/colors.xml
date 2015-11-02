@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="ms_primary">#2196F3</color>
+    <color name="ms_primary_dark">#1565C0</color>
+    <color name="ms_fab_btn">#2962FF</color>
+    <color name="color_name_song">#000000</color>
+    <color name="color_fondo_layount">#64B5F6</color>
+    <color name="color_text">#FFFFFF</color>
+    <color name="color_text2">#37474F</color>
+
+
+</resources>

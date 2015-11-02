@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp">
+ <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:src="@mipmap/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_toEndOf="@+id/imageView"
+    android:id="@+id/relativeLayout">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artist"
+        android:id="@+id/nameArtist"
+        android:layout_below="@+id/nameSong"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="@color/color_name_song"
+        android:textSize="23sp"
+        android:id="@+id/nameSong"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:id="@+id/nameGender"
+        android:layout_below="@+id/nameArtist"
+        />
+
+    <TextView
+        android:gravity="right"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:text="Album"
+        android:textColor="@color/color_name_song"
+        android:id="@+id/nameAlbum"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+
+        <Button
+            android:background="@color/ms_primary"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:textColor="@android:color/white"
+            android:id="@+id/button2"
+            android:onClick="deleteSong"
+            android:layout_alignBottom="@+id/imageView"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
